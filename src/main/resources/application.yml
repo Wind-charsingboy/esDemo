@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: esDemo
+
+server:
+  port: 8180
+
+es:
+  elasticsearch:
+    hostlist: ${eshostlist:192.168.6.142:9200}
+    alcoholrange: 0-8%vol,8-18%vol,18-38%vol,38-50%vol,50%vol“‘…œ
+
